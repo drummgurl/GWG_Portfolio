@@ -1,0 +1,87 @@
+/* Responsive Code */
+
+@media screen and (max-width: 500px) {
+
+  body {
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo_container {
+    padding-right: 25px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  #banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .code_projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work_1 {
+    margin-bottom: 20px;
+  }
+
+  .work_2 {
+  margin-bottom: 20px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 780px) {
+
+  body {
+    margin: 30px;
+  }
+
+  #banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+  }
+
+  .code_projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .work_1 {
+    margin-bottom: 20px;
+  }
+
+  .work_2 {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    width:100%;
+    height: auto;
+  }
+
+}
